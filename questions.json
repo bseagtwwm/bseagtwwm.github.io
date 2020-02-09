@@ -1,0 +1,38 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "Wofür steht BSEAGT",
+		            "content" : [
+		                "Bayr. Staats Ensemble für agitierte und gelähmte Techniker",
+		                "Mutation von Lymphknoten",
+		                "Kath. Kirchenchor in München",
+		                "Berufschule für Elektrotechniker"
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "Wie berechnet sich der elektr. Widerstand?",
+		            "content" : [
+		                "Spannung / Strom",
+		                "Strom / Spannung",
+		                "Masse * Leistung",
+		                "Spannung * Strom"
+		            ],
+		            "correct" : 0
+                },
+		        {
+		            "question" : "Wer A sagt muss auch ? sagen!",
+		            "content" : [
+		                "Bitte",
+		                "C",
+		                "B",
+		                "Danke"
+		            ],
+		            "correct" : 2
+		        }
+            ]
+		}
+	]
+}

@@ -45,13 +45,13 @@ Author: Aaron Nech
 					<li data-bind="css: {active: level() == 9}"  data-amt="16000" data-lvl="9">$16,000</li>
 					<li data-bind="css: {active: level() == 8}"  data-amt="8000" data-lvl="8">$8,000</li>
 					<li data-bind="css: {active: level() == 7}"  data-amt="4000" data-lvl="7">$4,000</li>
-					<li data-bind="css: {active: level() == 6}"  data-amt="2000" data-lvl="6">$1,000,000</li>
-					<li data-bind="css: {active: level() == 5}"  data-amt="1000" data-lvl="5">$1,000</li>
-					<li data-bind="css: {active: level() == 4}"  data-amt="500" data-lvl="4">$500</li>
                     -->
-					<li data-bind="css: {active: level() == 3}"  data-amt="300" data-lvl="3">100&euro;</li>
-					<li data-bind="css: {active: level() == 2}"  data-amt="200" data-lvl="2">10&euro;</li>
-					<li data-bind="css: {active: level() == 1}"  data-amt="100" data-lvl="1">1&euro;</li>
+					<li data-bind="css: {active: level() == 6}"  data-amt="1000" data-lvl="6">1000&euro;</li>
+					<li data-bind="css: {active: level() == 5}"  data-amt="500" data-lvl="5">500&euro;</li>
+					<li data-bind="css: {active: level() == 4}"  data-amt="200"  data-lvl="4">200&euro;</li>
+					<li data-bind="css: {active: level() == 3}"  data-amt="100"  data-lvl="3">100&euro;</li>
+					<li data-bind="css: {active: level() == 2}"  data-amt="10"  data-lvl="2">10&euro;</li>
+					<li data-bind="css: {active: level() == 1}"  data-amt="1"  data-lvl="1">1&euro;</li>
 				</ul>
 				<div class="clear"></div>
 			</div>
@@ -59,7 +59,7 @@ Author: Aaron Nech
 				<div id="fifty" class="options-button" data-bind="click: fifty"></div>
 				<div id="phone-friend" class="options-button" data-bind="click: fadeOutOption"></div>
 				<div id="audience" class="options-button" data-bind="click: fadeOutOption"></div>
-				<div id="money">$<span data-bind="text: formatMoney()"></span></div>
+				<div id="money"><span data-bind="text: formatMoney()"></span>&euro;</div>
 			</div>
 			<div id="question-box">
 				<span class="big-text">Q:</span>

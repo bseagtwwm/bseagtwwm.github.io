@@ -1,38 +1,692 @@
 {
-	"games" : [
-		{
-		    "questions" : [
-		        {
-		            "question" : "Wofür steht BSEAGT",
-		            "content" : [
-		                "Bayr. Staats Ensemble für agitierte und gelähmte Techniker",
-		                "Mutation von Lymphknoten",
-		                "Kath. Kirchenchor in München",
-		                "Berufschule für Elektrotechniker"
-		            ],
-		            "correct" : 3
-		        },
-		        {
-		            "question" : "Wie berechnet sich der elektr. Widerstand?",
-		            "content" : [
-		                "Spannung / Strom",
-		                "Strom / Spannung",
-		                "Masse * Leistung",
-		                "Spannung * Strom"
-		            ],
-		            "correct" : 0
-                },
-		        {
-		            "question" : "Wer A sagt muss auch ? sagen!",
-		            "content" : [
-		                "Bitte",
-		                "C",
-		                "B",
-		                "Danke"
-		            ],
-		            "correct" : 2
-		        }
-            ]
-		}
-	]
+  "games" : [
+    {
+      "questions" : [
+        {
+          "question" : "Wie lautet die englische Bezeichnung für Wechsel-/Gleichstrom?",
+          "content" : [
+            "Metallica",
+            "ADAC",
+            "Nirvana",
+            "ACDC"
+          ],
+          "correct" : 3
+        },
+        {
+          "question" : "Wie berechnet sich der elektr. Widerstand?",
+          "content" : [
+            "Spannung / Strom",
+            "Strom / Spannung",
+            "Masse * Leistung",
+            "Spannung * Strom"
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "Viel Blindleistung entsteht bei...",
+          "content" : [
+            "schaumigem Bier",
+            "abgeschatteten PV- Modulen",
+            "fehlender Kompensation",
+            "durchdrehenden Reifen"
+          ],
+          "correct" : 2
+        },
+        {
+          "question" : "Wofür steht BSEAGT?",
+          "content" : [
+            "Bayr. Staatsensemble für angehende Gebäudetechniker",
+            "Mutation von Lymphknoten",
+            "Kath. Kirchenchor in München",
+            "Berufschule für elektrische Anlagen-und Gebäudetechnik"
+          ],
+          "correct" : 3
+        },
+        {
+          "question" : "Der Leistungsfaktor beschreibt...",
+          "content" : [
+            "den Quotienten aus Schein- zu Wirkleistung",
+            "den Notendurchschnitt einer Klasse",
+            "die Leistungsfähigkeit eines Lehrerkollegiums",
+            "das Verhältnis von Arbeits- zu Krankheitstagen"
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "Was ist ein Würgenippel?",
+          "content" : [
+            "Klemme",
+            "Manschette",
+            "Abdichtung",
+            "Entzündung während der Schwangerschaft"
+          ],
+          "correct" : 2
+        },
+        {
+          "question" : "Was bedeutet das J in einem NYM-J 3x1,5 Kabel?",
+          "content" : [
+            "Mantelleitung",
+            "genormte Leitung",
+            "Isolierung aus PVC",
+            "mit SChutzleiter"
+          ],
+          "correct" : 3
+        },
+        {
+          "question" : "0,0001V sind auch...",
+          "content" : [
+            "1mV",
+            "100uV",
+            "1kV",
+            "10uV"
+          ],
+          "correct" : 1
+        },
+        {
+          "question" : "Wie lautet die dritte Sicherheitsregel?",
+          "content" : [
+            "Gegen Wiedereinschalten sichern",
+            "Freischalten",
+            "Benachbarte Teile abdecken oder abschranken",
+            "Spannungsfreiheit feststellen"
+          ],
+          "correct" : 3
+        },
+        {
+          "question" : "Die englische Bezeichnung für Wackelkontakt bedeutet",
+          "content" : [
+            "Wackeldackel",
+            "Wiggel contact",
+            "loose connection",
+            "loose circuit"
+          ],
+          "correct" : 2
+        },
+        {
+          "question" : "Wie groß ist die Spannung, wenn durch einen Widerstand von 2kOhm ein Strom von 2mA fließt?",
+          "content" : [
+            "4V",
+            "1V",
+            "4mV",
+            "1mV"
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "Was hat Sophie Scholl mit einem Elektroniker gemeinsam?",
+          "content" : [
+            "",
+            "beide  ",
+            "beide sind Widerstandskämpfer",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        }
+      ]
+    },
+    {
+      "questions" : [
+        {
+          "question" : "2tes Set an Fragen",
+          "content" : [
+            "Bayr. Staats Ensemble für agitierte und gelähmte Techniker",
+            "Mutation von Lymphknoten",
+            "Kath. Kirchenchor in München",
+            "Berufschule für Elektrotechniker"
+          ],
+          "correct" : 3
+        },
+        {
+          "question" : "Wie berechnet sich der elektr. Widerstand?",
+          "content" : [
+            "Spannung / Strom",
+            "Strom / Spannung",
+            "Masse * Leistung",
+            "Spannung * Strom"
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "Wer A sagt muss auch ? sagen!",
+          "content" : [
+            "Bitte",
+            "C",
+            "B",
+            "Danke"
+          ],
+          "correct" : 2
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        },
+        {
+          "question" : "",
+          "content" : [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "correct" : 0
+        }
+      ]
+    }
+  ]
 }

@@ -22,6 +22,8 @@ Number.prototype.money = function(fixed, decimalDelim, breakDelim){
 		  (fixed ? decimalDelim + Math.abs(n - i).toFixed(fixed).slice(2) : "");
 }
 
+var waitingForEnter = false;
+
 /**
 * Plays a sound via HTML5 through Audio tags on the page
 *
@@ -123,21 +125,38 @@ var MillionaireModel = function(data) {
  	self.rightAnswer = function(elm) {
  		$("#" + elm).slideUp('slow', function() {
  			startSound('rightsound', false);
- 			$("#" + elm).css('background', 'green').slideDown('slow', function() {
+ 			$("#" + elm).css('background', 'green').slideDown(1000, function() {
  				self.money($(".active").data('amt'));
- 				if(self.level() + 1 > 15) {
+ 				if(self.level() + 1 > $("#levels li").length) {
 	 				$("#game").fadeOut('slow', function() {
 	 					$("#game-over").html('You Win!');
 	 					$("#game-over").fadeIn('slow');
 	 				});
  				} else {
- 					self.level(self.level() + 1);
- 					$("#" + elm).css('background', 'none');
-			 		$("#answer-one").show();
-			 		$("#answer-two").show();
-			 		$("#answer-three").show();
-			 		$("#answer-four").show();
-			 		self.transitioning = false;
+                    waitingForEnter = true;
+                    function after(){
+                        waitingForEnter = false;
+                        //Below is what I want to happen after the "enter" key has been pressed.
+                        self.level(self.level() + 1);
+                        $(".answer").css('background', 'none');
+                        $("#answer-one").show();
+                        $("#answer-two").show();
+                        $("#answer-three").show();
+                        $("#answer-four").show();
+                        self.transitioning = false;
+                    }
+                    function keydownHandler(e) {
+                        if (e.keyCode == 13 && waitingForEnter) {  // 13 is the enter key
+                            after();
+                        }
+                    }
+                    // register your handler method for the keydown event
+                    if (document.addEventListener) {
+                        document.addEventListener('keydown', keydownHandler, false);
+                    }
+                    else if (document.attachEvent) {
+                        document.attachEvent('onkeydown', keydownHandler);
+                    }
  				}
  			});
  		});
@@ -152,9 +171,28 @@ var MillionaireModel = function(data) {
  					$("#game-over").html('Game Over!');
  					$("#game-over").fadeIn('slow');
  					self.transitioning = false;
- 				});
- 			});
+
+                    waitingForEnter = true;
+                    function after_wrong_answer(){
+                        waitingForEnter = false;
+                        location.reload();
+                    }
+                    function keydownHandler(e) {
+                        if (e.keyCode == 13 && waitingForEnter) {  // 13 is the enter key
+                            after_wrong_answer();
+                        }
+                    }
+                    // register your handler method for the keydown event
+                    if (document.addEventListener) {
+                        document.addEventListener('keydown', keydownHandler, false);
+                    }
+                    else if (document.attachEvent) {
+                        document.attachEvent('onkeydown', keydownHandler);
+                    }
+                });
+            });
  		});
+
  	}
 
  	// Gets the money formatted string of the current won amount of money.

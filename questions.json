@@ -1,8 +1,7 @@
 {
   "games" : [
     { "questions" : [
-        {
-          "question" : "Wie lautet die englische Bezeichnung für Wechsel-/Gleichstrom?",
+        { "question" : "Wie lautet die englische Bezeichnung für Wechsel-/Gleichstrom?",
           "content" : [
             "Metallica",
             "ADAC",
@@ -11,8 +10,7 @@
           ],
           "correct" : 3
         },
-        {
-          "question" : "Wie berechnet sich der elektr. Widerstand?",
+        { "question" : "Wie berechnet sich der elektr. Widerstand?",
           "content" : [
             "Spannung / Strom",
             "Strom / Spannung",
@@ -21,8 +19,7 @@
           ],
           "correct" : 0
         },
-        {
-          "question" : "Viel Blindleistung entsteht bei...",
+        { "question" : "Viel Blindleistung entsteht bei...",
           "content" : [
             "schaumigem Bier",
             "abgeschatteten PV- Modulen",
@@ -31,18 +28,16 @@
           ],
           "correct" : 2
         },
-        {
-          "question" : "Wofür steht BSEAGT?",
+        { "question" : "Wofür steht BSEAGT?",
           "content" : [
             "Bayr. Staatsensemble für angehende Gebäudetechniker",
-            "Mutation von Lymphknoten",
-            "Kath. Kirchenchor in München",
+            "Nutztiererkrankung",
+            "Navigationssystem für öffentlichen Stadtverkehr",
             "Berufschule für elektrische Anlagen-und Gebäudetechnik"
           ],
           "correct" : 3
         },
-        {
-          "question" : "Der Leistungsfaktor beschreibt...",
+        { "question" : "Der Leistungsfaktor beschreibt...",
           "content" : [
             "den Quotienten aus Schein- zu Wirkleistung",
             "den Notendurchschnitt einer Klasse",
@@ -51,8 +46,7 @@
           ],
           "correct" : 0
         },
-        {
-          "question" : "Welchen maximalen Fehlerdifferenzstrom muss ein RDD haben damit er für den direkten Personenschutz geeignet ist?",
+        { "question" : "Welchen maximalen Fehlerdifferenzstrom muss ein RDD haben damit er für den direkten Personenschutz geeignet ist?",
           "content" : [
             "0.3A",
             "3500mA",
@@ -63,11 +57,8 @@
         }
     ] },
 
-
-
     { "questions" : [
-        {
-          "question" : "Die englische Bezeichnung für Wackelkontakt ist",
+        { "question" : "Die englische Bezeichnung für Wackelkontakt ist",
           "content" : [
             "Wackeldackel",
             "Wiggel contact",
@@ -76,8 +67,7 @@
           ],
           "correct" : 2
         },
-        {
-          "question" : "Was bedeutet das J in einem NYM-J 3x1,5 Kabel?",
+        { "question" : "Was bedeutet das J in einem NYM-J 3x1,5 Kabel?",
           "content" : [
             "Mantelleitung",
             "genormte Leitung",
@@ -86,8 +76,7 @@
           ],
           "correct" : 3
         },
-        {
-          "question" : "0,0001V sind auch...",
+        { "question" : "0,0001V sind auch...",
           "content" : [
             "1mV",
             "100uV",
@@ -96,8 +85,7 @@
           ],
           "correct" : 1
         },
-        {
-          "question" : "Wie lautet die dritte Sicherheitsregel?",
+        { "question" : "Wie lautet die dritte Sicherheitsregel?",
           "content" : [
             "Gegen Wiedereinschalten sichern",
             "Freischalten",
@@ -106,8 +94,7 @@
           ],
           "correct" : 3
         },
-        {
-          "question" : "Wie groß ist die Spannung, wenn durch einen Widerstand von 2kOhm ein Strom von 2mA fließt?",
+        { "question" : "Wie groß ist die Spannung, wenn durch einen Widerstand von 2kOhm ein Strom von 2mA fließt?",
           "content" : [
             "4V",
             "1V",
@@ -116,23 +103,29 @@
           ],
           "correct" : 0
         },
-        {
-          "question" : "Was hat Sophie Scholl mit einem Elektroniker gemeinsam?",
+        { "question" : "Welches Gerät wird verwendet um die Körnigkeit einer Paste oder eines Lackes zu messen?",
           "content" : [
-            "beide tragen Engelbert & Strauss",
-            "beide ",
-            "beide sind Widerstandskämpfer",
-            "TODO"
+            "Perthometer",
+            "Grindometer",
+            "Tribometer",
+            "Duktilometer"
           ],
-          "correct" : 0
+          "correct" : 1
         }
     ] },
 
 
-
     { "questions" : [
-        {
-          "question" : "Was ist ein Würgenippel?",
+        { "question" : "Welche Aussage über den Schutzleiter ist korrekt?",
+          "content" : [
+            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe mit angeschlossenem PE weiterhin funktionsfähig",
+            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe ohne angeschlossenem PE weiterhin funktionsfähig",
+            "Der PE hat eine blaue Isolierung",
+            "Der PE hat eine schwarze Isolierung"
+          ],
+          "correct" : 1
+        },
+        { "question" : "Was ist ein Würgenippel?",
           "content" : [
             "Klemme",
             "Manschette",
@@ -141,55 +134,41 @@
           ],
           "correct" : 2
         },
-        {
-          "question" : "",
+        { "question" : "Wie heißen die Überreste des Körpers von Heiligen?",
           "content" : [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "correct" : 0
-        },
-        {
-          "question" : "",
-          "content" : [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "correct" : 0
-        },
-        {
-          "question" : "",
-          "content" : [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "correct" : 0
-        },
-        {
-          "question" : "",
-          "content" : [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "correct" : 0
-        },
-        {
-          "question" : "Wer A sagt muss auch ? sagen!",
-          "content" : [
-            "Bitte",
-            "C",
-            "B",
-            "Danke"
+            "Ikonen",
+            "Tabernakel",
+            "Reliquien",
+            "Sarkophag"
           ],
           "correct" : 2
+        },
+        { "question" : "Welche Adern werden zwischen 2 Wechselschaltern verlegt?",
+          "content" : [
+            "Eine korrespondierende Ader",
+            "Zwei korrespondierende Adern",
+            "Zwei exponierende Adern",
+            "Zwei explodierende Adern"
+          ],
+          "correct" : 1
+        },
+        { "question" : "Auf welcher Seite sollte die Handbetätigung das Gehäuse vom Schaltersymbol verlassen",
+          "content" : [
+            "Rechts",
+            "Oben",
+            "Unten",
+            "Links"
+          ],
+          "correct" : 3
+        },
+        { "question" : "Mithilfe welcher SI-Einheit wird der magnetische Fluss beschrieben?",
+          "content" : [
+            "Weber [Wb]",
+            "Farad [F]",
+            "Tesla [T]",
+            "Siemens [S]"
+          ],
+          "correct" : 0
         }
       ] }
   ]

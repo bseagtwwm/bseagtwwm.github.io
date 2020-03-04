@@ -10,15 +10,6 @@
           ],
           "correct" : 3
         },
-        { "question" : "Wie berechnet sich der elektr. Widerstand?",
-          "content" : [
-            "Spannung / Strom",
-            "Strom / Spannung",
-            "Masse * Leistung",
-            "Spannung * Strom"
-          ],
-          "correct" : 0
-        },
         { "question" : "Viel Blindleistung entsteht bei...",
           "content" : [
             "schaumigem Bier",
@@ -28,42 +19,12 @@
           ],
           "correct" : 2
         },
-        { "question" : "Wofür steht BSEAGT?",
+        { "question" : "Was ist ein Würgenippel?",
           "content" : [
-            "Bayr. Staatsensemble für angehende Gebäudetechniker",
-            "Nutztiererkrankung",
-            "Navigationssystem für öffentlichen Stadtverkehr",
-            "Berufschule für elektrische Anlagen-und Gebäudetechnik"
-          ],
-          "correct" : 3
-        },
-        { "question" : "Der Leistungsfaktor beschreibt...",
-          "content" : [
-            "den Quotienten aus Schein- zu Wirkleistung",
-            "den Notendurchschnitt einer Klasse",
-            "die Leistungsfähigkeit eines Lehrerkollegiums",
-            "das Verhältnis von Arbeits- zu Krankheitstagen"
-          ],
-          "correct" : 0
-        },
-        { "question" : "Welchen maximalen Fehlerdifferenzstrom muss ein RDD haben damit er für den direkten Personenschutz geeignet ist?",
-          "content" : [
-            "0.3A",
-            "3500mA",
-            "0.03A",
-            "3A"
-          ],
-          "correct" : 2
-        }
-    ] },
-
-    { "questions" : [
-        { "question" : "Die englische Bezeichnung für Wackelkontakt ist",
-          "content" : [
-            "Wackeldackel",
-            "Wiggel contact",
-            "loose connection",
-            "loose circuit"
+            "Klemme",
+            "Manschette",
+            "Abdichtung",
+            "Entzündung während der Schwangerschaft"
           ],
           "correct" : 2
         },
@@ -76,14 +37,35 @@
           ],
           "correct" : 3
         },
-        { "question" : "0,0001V sind auch...",
+        { "question" : "Die englische Bezeichnung für Wackelkontakt ist",
           "content" : [
-            "1mV",
-            "100uV",
-            "1kV",
-            "10uV"
+            "Wackeldackel",
+            "Wiggel contact",
+            "loose connection",
+            "loose circuit"
           ],
-          "correct" : 1
+          "correct" : 2
+        },
+        { "question" : "Welchen maximalen Fehlerdifferenzstrom muss ein RCD haben damit er für den direkten Personenschutz geeignet ist?",
+          "content" : [
+            "0.3A",
+            "3500mA",
+            "0.03A",
+            "3A"
+          ],
+          "correct" : 2
+        }
+    ] },
+
+    { "questions" : [
+        { "question" : "Wie berechnet sich der elektr. Widerstand?",
+          "content" : [
+            "Spannung durch Strom",
+            "Strom durch Spannung",
+            "Masse mal Leistung",
+            "Spannung mal Strom"
+          ],
+          "correct" : 0
         },
         { "question" : "Wie lautet die dritte Sicherheitsregel?",
           "content" : [
@@ -93,46 +75,6 @@
             "Spannungsfreiheit feststellen"
           ],
           "correct" : 3
-        },
-        { "question" : "Wie groß ist die Spannung, wenn durch einen Widerstand von 2kOhm ein Strom von 2mA fließt?",
-          "content" : [
-            "4V",
-            "1V",
-            "4mV",
-            "1mV"
-          ],
-          "correct" : 0
-        },
-        { "question" : "Welches Gerät wird verwendet um die Körnigkeit einer Paste oder eines Lackes zu messen?",
-          "content" : [
-            "Perthometer",
-            "Grindometer",
-            "Tribometer",
-            "Duktilometer"
-          ],
-          "correct" : 1
-        }
-    ] },
-
-
-    { "questions" : [
-        { "question" : "Welche Aussage über den Schutzleiter ist korrekt?",
-          "content" : [
-            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe mit angeschlossenem PE weiterhin funktionsfähig",
-            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe ohne angeschlossenem PE weiterhin funktionsfähig",
-            "Der PE hat eine blaue Isolierung",
-            "Der PE hat eine schwarze Isolierung"
-          ],
-          "correct" : 1
-        },
-        { "question" : "Was ist ein Würgenippel?",
-          "content" : [
-            "Klemme",
-            "Manschette",
-            "Abdichtung",
-            "Entzündung während der Schwangerschaft"
-          ],
-          "correct" : 2
         },
         { "question" : "Wie heißen die Überreste des Körpers von Heiligen?",
           "content" : [
@@ -149,6 +91,64 @@
             "Zwei korrespondierende Adern",
             "Zwei exponierende Adern",
             "Zwei explodierende Adern"
+          ],
+          "correct" : 1
+        },
+        { "question" : "Wie groß ist die Spannung, wenn durch einen Widerstand von 2kOhm ein Strom von 2mA fließt?",
+          "content" : [
+            "4V",
+            "1V",
+            "4mV",
+            "1mV"
+          ],
+          "correct" : 0
+        },
+        { "question" : "Wie verhält sich die Leistung wenn die Spannung verdoppelt wird?",
+          "content" : [
+            "Bleibt gleich",
+            "Widerstand halbiert sich",
+            "vierfache Leistung",
+            "Leistungsfaktor halbiert sich"
+          ],
+          "correct" : 2
+        }
+    ] },
+
+
+    { "questions" : [
+        { "question" : "Der Leistungsfaktor beschreibt...",
+          "content" : [
+            "den Quotienten aus Schein- zu Wirkleistung",
+            "den Notendurchschnitt einer Klasse",
+            "die Leistungsfähigkeit eines Lehrerkollegiums",
+            "das Verhältnis von Arbeits- zu Krankheitstagen"
+          ],
+          "correct" : 0
+        },
+        { "question" : "Wofür steht BSEAGT?",
+          "content" : [
+            "Bayr. Staatsensemble für angehende Gebäudetechniker",
+            "Nutztiererkrankung",
+            "Navigationssystem für öffentlichen Stadtverkehr",
+            "Berufschule für elektrische Anlagen-und Gebäudetechnik"
+          ],
+          "correct" : 3
+        },
+        { "question" : "Welche Aussage über den Schutzleiter ist korrekt?",
+          "content" : [
+            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe mit angeschlossenem PE weiterhin funktionsfähig",
+            "Bei einem Körperschluss an einem Metallgehäuse ist die Lampe ohne angeschlossenem PE weiterhin funktionsfähig",
+            "Der PE hat eine blaue Isolierung",
+            "Der PE hat eine schwarze Isolierung"
+          ],
+          "correct" : 1
+        },
+        { "question" : "0,0001V sind auch...",
+          "content" : [
+            "1mV",
+            "100uV",
+            "1kV",
+            "10uV"
           ],
           "correct" : 1
         },

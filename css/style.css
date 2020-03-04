@@ -92,6 +92,8 @@ audio {
 
 #phone-friend {
 	background: url('../img/phone-friend.png') no-repeat 0 0;
+  background-color: gray;
+  opacity: .4;
 }
 
 #audience {

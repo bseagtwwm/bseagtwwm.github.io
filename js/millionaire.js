@@ -37,6 +37,10 @@ startSound = function(id, loop) {
 		soundHandle.setAttribute('loop', loop);
 	soundHandle.play();
 }
+stopSound = function(id) {
+	soundHandle = document.getElementById(id);
+	soundHandle.pause();
+}
 
 /**
 * The View Model that represents one game of
@@ -128,8 +132,9 @@ var MillionaireModel = function(data) {
  			$("#" + elm).css('background', 'green').slideDown(1000, function() {
  				self.money($(".active").data('amt'));
  				if(self.level() + 1 > $("#levels li").length) {
+          stopSound('background');
 	 				$("#game").fadeOut('slow', function() {
-	 					$("#game-over").html('You Win!');
+	 					$("#game-over").html('Gratulation<br>Supergeselle!');
 	 					$("#game-over").fadeIn('slow');
 	 				});
  				} else {
